@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <style>
+      
+       
+        li {
+        color: rgb(255,255,255) ;
+        display: block;
+        position: relative;
+        width: 100px;
+        background-color:rgba(0,0,0,0.1);
+        border: 1px transparent;
+        width: 180px;
+        height: 25px;
+        text-align: left;
+        margin-top: 10px;
+        padding: 5px;
+        padding-top: 7px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+       
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        ul.sous_menu {
+        display: none;
+        }
+        li:hover {
+        color: rgb(0,255,255);
+        background-color: rgb(0,0,255,0.2) ;
+        }
+        li:hover > ul.sous_menu {
+        display: block;
+        position: absolute;
+        width: 500px;
+        top: 0px;
+        left: 85%;
+        
+        }
+       
+        
+       </style>
+</head>
+<body>
+    
+    <div class="title">Favoris</div>
+    <ul class="menu">
+        <li> <img class="images" src="images/music_icon.png" alt="">  Musiques <img class="subicon" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li>Rock</li>
+                <li>Jazz <img class="subicon" src="images/ICON_submenu.png" alt=">">
+                    <ul class="sous_menu">
+                        <li>Pat Metheny</li>
+                        <li>Miles Davis</li>
+                        <li>UZEB <img class="subicon" src="images/ICON_submenu.png" alt=">">
+                            <ul class="sous_menu">
+                                <li>Alain Caron</li>
+                                <li>Michel Cusson</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Latin</li>
+                <li>Blues</li>
+                <li>Metal</li>
+                <li>Classic</li>
+                <li>Folk</li>
+            </ul>
+        </li>
+        <li> <img class="images"  src="images/news_icon.png" alt=""> Nouvelles <img class="subicon" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li> <img class="images" src="images/radio_canada_icon.png" alt=""> <a href="https://www.radio-canada.ca" target="_blank">Radio-Canada</a> </li>
+                <li> <img class="images" src="images/nbc_icon.png" alt=""> <a href="https://www.nbc.com/" target="_blank" >NBC new</a> </li>
+                <li> <img class="images" src="images/cnn_icon.png" alt=""> <a href="https://www.cnn.com/"></a> CNN news</li>
+                <li> <img class="images" src="images/meteo_icon.png" alt=""> Météo <img class="subicon" src="images/ICON_submenu.png" alt=">">
+                    <ul class="sous_menu">
+                        <li> <img class="images" src="images/meteo_media_icon.png" alt=""> <a href="https://www.meteomedia.com/ca/meteo/quebec/sainte-therese">Météomédia</a></li>
+                        <li> <img class="images" src="images/Hurricane_icon.png" alt=""> <a href="https://www.nhc.noaa.gov/">Ouragan</a></li>
+                        <li> <img class="images" src="images/wunder_icon.png" alt=""> <a href="https://www.wunderground.com/wundermap/">Wunder Ground</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li> <img class="images" src="images/game_icon.png" alt=""> Jeux <img class="subicon" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li> <img class="images" src="images/backgammon_icon.png" alt=""> <a href="http://zone.msn.com/en/backgammon/default.htm">Backgammon</a></li>
+                <li> <img class="images" src="images/reversi_icon.png" alt=""> <a href="https://www.mah-jongg.ch/reversi/reversi.html">Reversi</a></li>
+            </ul>
+        </li>
+        <li> <img class="images" src="images/contact_icon.png" alt=""> Contacts <img class="subicon" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li> <img class="images" src="images/facebook_icon.png" alt=""> <a href="https://www.facebook.com/">Facebook</a></li>
+                <li> <img class="images" src="images/twitter_icon.png" alt=""> <a href="https://twitter.com/">Twitter</a></li>
+                <li> <img class="images" src="images/google_plus_icon.png" alt=""> <a href="https://accounts.google.com/">Google+</a></li>
+            </ul>
+        </li>
+    </ul>
+    
+</body>
+</html>
